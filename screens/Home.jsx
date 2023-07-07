@@ -51,7 +51,7 @@ function Home() {
           }}>
         </View>
         <SegundoTeste />
-        <Button style={{marginTop: '50px'}} title='Vai Para os Settings' onPress={() => navigation.navigate('Settings')} />
+        <Button style={{marginTop: '50px'}} title='Vai Para os Settings' onPress={() => navigation.navigate('Jogo')} />
       </ScrollView>
     </SafeAreaView>
   );
